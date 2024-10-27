@@ -16,3 +16,14 @@ Some of these utility functions replicate functions or capabilities within gnu-l
   - memstream_getc.c / memstream_putc.c: functions for reading and writing a single character/byte to/from the given memstream
   - memstream_read.c / memstream_write.c: functions for reading and writing one or more bytes to/from the given memstream
   - memstream_tell.c / memstream_seek.c: functions for getting and setting the position within the given memstream
+
+## Adding ca-util to a project
+To add this submodule into a folder perform the following command:
+
+`git submodule add https://github.com/canadianavenger/ca-util <folder name>`
+
+if `git` does not automatically include the contents into `<folder name>` perfrom the following
+
+`git submodule update --init --recursive`
+
+For more info: [Working with Submodules on GitHub](https://github.blog/open-source/git/working-with-submodules/)
