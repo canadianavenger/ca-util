@@ -20,7 +20,7 @@ Some of these utility functions replicate functions or capabilities within gnu-l
 ## Adding ca-util to a project
 To add this submodule into a folder perform the following command:
 
-`git submodule add https://github.com/canadianavenger/ca-util <folder name>`
+`git submodule add https://github.com/canadianavenger/ca-util.git <folder name>`
 
 if `git` does not automatically include the contents into `<folder name>` perfrom the following
 
