@@ -8,5 +8,5 @@ int memstream_eof(memstream_buf_t *buf) {
         errno = EBADF;
         return -1;
     }
-    return buf->len >= buf->pos;
+    return buf->pos >= buf->len;
 }
